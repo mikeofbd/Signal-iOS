@@ -54,7 +54,7 @@ public class ConversationMediaView: UIView {
     private func addMediaSubview(_ subview: UIView) {
         addSubview(subview)
         subview.autoPinEdgesToSuperviewEdges()
-        //            [self addAttachmentUploadViewIfNecessary];
+        // TODO: Possibly add upload/download indicator here.
     }
 
     private func configureForAnimatedImage(attachmentStream: TSAttachmentStream) {
